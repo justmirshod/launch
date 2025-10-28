@@ -68,7 +68,7 @@ export default function Home() {
               }}
               className="text-center"
             >
-              <motion.h1
+              {/* <motion.h1
                 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-300 to-blue-500 mb-4"
                 animate={{
                   backgroundPosition: ["0%", "100%", "0%"],
@@ -81,14 +81,14 @@ export default function Home() {
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
               >
                 Lokomotivlardan intellektual foydalanish tizimi
-              </motion.h1>
-              <motion.p
+              </motion.h1> */}
+              {/* <motion.p
                 className="text-lg text-gray-400 font-light tracking-widest"
                 animate={{ opacity: [0.5, 1, 0.5] }}
                 transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
               >
                 Bosib ushlab turing
-              </motion.p>
+              </motion.p> */}
             </motion.div>
 
             {/* Launch button */}
