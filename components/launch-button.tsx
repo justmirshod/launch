@@ -153,8 +153,8 @@ export default function LaunchButton({
           key={`glow-${layer}`}
           className="absolute inset-0 rounded-full"
           style={{
-            width: 600 + layer * 80,
-            height: 600 + layer * 80,
+            width: 920 + layer * 120,
+            height: 920 + layer * 120,
             background:
               layer === 0
                 ? "radial-gradient(circle, rgba(59, 130, 246, 0.4) 0%, transparent 70%)"
@@ -183,7 +183,7 @@ export default function LaunchButton({
         onMouseLeave={handleMouseUp}
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
-        className={`relative w-96 h-96 rounded-full bg-gradient-to-br from-blue-500/20 to-blue-600/10 border-2 border-blue-500/50 flex items-center justify-center cursor-pointer overflow-hidden group transition-all duration-300 hover:border-blue-400 hover:from-blue-500/30 ${
+        className={`relative w-[36rem] h-[36rem] rounded-full bg-gradient-to-br from-blue-500/20 to-blue-600/10 border-2 border-blue-500/50 flex items-center justify-center cursor-pointer overflow-hidden group transition-all duration-300 hover:border-blue-400 hover:from-blue-500/30 ${
           glitch ? "animate-pulse" : ""
         }`}
         style={{
@@ -279,7 +279,7 @@ export default function LaunchButton({
             }}
           >
             <svg
-              className="w-24 h-24 text-blue-400"
+              className="w-40 h-40 text-blue-400"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
